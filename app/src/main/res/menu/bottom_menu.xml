@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/profile"
+        android:title="PROFILE"
+        android:icon="@drawable/baseline_person_24"/>
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+    <item
+    android:id="@+id/aboutus"
+    android:title="ABOUT US"
+    android:icon="@drawable/baseline_info_24"/>
+    <item
+        android:id="@+id/logout"
+        android:title="LOGOUT"
+        android:icon="@drawable/baseline_logout_24"/>
+
+</menu>

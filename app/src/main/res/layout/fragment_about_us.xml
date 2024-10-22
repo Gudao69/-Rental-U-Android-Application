@@ -1,0 +1,26 @@
+<!-- res/layout/fragment_about_us.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:id="@+id/textAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to RentalU, your go-to app for finding the perfect home for your needs. Whether you are looking for a cozy apartment or a spacious house, we've got you covered.\n\nOur mission is to make the process of finding and renting a property hassle-free. With RentalU, you can browse through a wide range of listings, view property details, and connect with landlords effortlessly.\n\nWe are dedicated to providing a seamless experience for both tenants and property owners. Thank you for choosing RentalU for your housing needs!"
+        android:layout_below="@id/imageLogo"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
